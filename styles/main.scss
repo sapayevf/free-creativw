@@ -1,0 +1,56 @@
+@import "./other/aniq";
+@import "./other/header";
+
+.section-2 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  h2 {
+    margin-bottom: 20px;
+  }
+  .s2__content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+    img {
+      width: 280%;
+    }
+  }
+  .s2__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    .s1__title-content {
+      width: 18%;
+      gap: 10px;
+    }
+  }
+  .s2__content2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    img {
+      width: 200%;
+    }
+  }
+}
+
+.section-3 {
+  .s3__content {
+    margin-bottom: 60px;
+    img {
+      width: 100%;
+      margin-bottom: 60px;
+    }
+    .s3__content-title {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      button {
+        display: block;
+        margin-top: -60px;
+        padding: 23px 36px;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.section-1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/images/s1-bgi.png);
+  background-size: cover;
+  background-position: center;
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__item {
+      padding-top: 30px;
+    }
+    .header__btns {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
+.instagram {
+  width: 20px;
+}
+.facebook {
+  width: 15px;
+  padding: 12px 10px;
+}
+
+
+.s1__title {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.s1_btns {
+  display: flex;
+  align-items: stretch;
+  gap: 15px;
+  .s1_btn {
+    padding: 16px 25px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+  }
+}

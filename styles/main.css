@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 45px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 26px;
+}
+
+.section-1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../assets/images/s1-bgi.png);
+  background-size: cover;
+  background-position: center;
+}
+.section-1 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-1 header .header__item {
+  padding-top: 30px;
+}
+.section-1 header .header__btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.instagram {
+  width: 20px;
+}
+
+.facebook {
+  width: 15px;
+  padding: 12px 10px;
+}
+
+.s1__title {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.s1_btns {
+  display: flex;
+  align-items: stretch;
+  gap: 15px;
+}
+.s1_btns .s1_btn {
+  padding: 16px 25px;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+.section-2 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.section-2 h2 {
+  margin-bottom: 20px;
+}
+.section-2 .s2__content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.section-2 .s2__content img {
+  width: 280%;
+}
+.section-2 .s2__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.section-2 .s2__title .s1__title-content {
+  width: 18%;
+  gap: 10px;
+}
+.section-2 .s2__content2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.section-2 .s2__content2 img {
+  width: 200%;
+}
+
+.section-3 .s3__content {
+  margin-bottom: 60px;
+}
+.section-3 .s3__content img {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.section-3 .s3__content .s3__content-title {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.section-3 .s3__content .s3__content-title button {
+  display: block;
+  margin-top: -60px;
+  padding: 23px 36px;
+}/*# sourceMappingURL=main.css.map */

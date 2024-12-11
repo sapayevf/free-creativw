@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 45px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 26px;
+}
