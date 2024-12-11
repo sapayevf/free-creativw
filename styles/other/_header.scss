@@ -2,6 +2,9 @@
   width: 100vw;
   height: 100vh;
   background-image: url(../../assets/images/s1-bgi.png);
+  @media (max-width: 768px) {
+    background-image: url(../../assets/images/768.png);
+  }
   background-size: cover;
   background-position: center;
   header {
@@ -15,6 +18,9 @@
       display: flex;
       align-items: center;
       gap: 20px;
+      @media (max-width: 768px) {
+        display: none;
+      }
     }
   }
 }
@@ -26,7 +32,6 @@
   padding: 12px 10px;
 }
 
-
 .s1__title {
   height: 500px;
   display: flex;
@@ -37,11 +42,18 @@
   display: flex;
   align-items: stretch;
   gap: 15px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
   .s1_btn {
     padding: 16px 25px;
     border-radius: 50px;
     background-color: white;
     color: black;
     font-weight: 500;
+    @media (max-width: 768px) {
+      display: inline;
+      width: 200px;
+    }
   }
 }
